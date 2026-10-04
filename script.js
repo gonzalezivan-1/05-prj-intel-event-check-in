@@ -44,7 +44,7 @@ checkInForm.addEventListener("submit", function (event) {
   attendeeListItem.textContent = attendeeName;
   attendeeList.appendChild(attendeeListItem);
 
-  attendeeCount = attendeeCount + 10;
+  attendeeCount = attendeeCount + 1;
   teamCountDisplay.textContent = Number(teamCountDisplay.textContent) + 1;
 
   let leadingTeam = selectedTeam;
