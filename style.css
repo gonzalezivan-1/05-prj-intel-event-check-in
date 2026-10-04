@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -329,6 +330,18 @@ select {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.attendee-list {
+  width: 100%;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(71, 85, 105, 0.2);
+  list-style: none;
+  text-align: left;
+  color: #475569;
+  font-size: 14px;
+  overflow-wrap: anywhere;
 }
 
 /* Team card colors */
